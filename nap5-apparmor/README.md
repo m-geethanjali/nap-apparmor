@@ -101,7 +101,7 @@ Ensure the following files are present under /apparmor_policies directory before
 Make the installation script executable and run it:
 
 ```bash
-sudo cd nap5-apparmor
+sudo cd nap-apparmor/nap5-apparmor
 
 sudo ./apparmor_policies/build_install.sh
 ```
