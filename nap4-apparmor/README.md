@@ -96,7 +96,7 @@ Ensure the following files are present under /apparmor_policies directory before
 Make the installation script executable and run it:
 
 ```bash
-sudo cd nap4-apparmor
+cd nap-apparmor/nap4-apparmor
 
 sudo ./apparmor_policies/build_install.sh
 ```
