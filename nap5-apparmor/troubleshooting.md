@@ -22,7 +22,7 @@ sudo apparmor_parser -r /etc/apparmor.d/usr.sbin.nginx
 ### 3. Run test_apparmor script
 
 ```shell
-cd ~/nap5-apparmor/
+ cd ~/nap-apparmor/nap5-apparmor/
 
 sudo ./test_scripts/test_apparmor.sh
 ```
