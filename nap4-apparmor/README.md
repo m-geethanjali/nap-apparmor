@@ -5,7 +5,7 @@ This project provides tools and documentation for integrating NGINX App Protect 
 ## Overview
 NGINX App Protect WAF (Web Application Firewall) integration with apparmor provides an additional layer of security on debian systems. This repository contains apparmor policies, installation scripts, and testing utilities designed for NGINX App Protect deployments.
 
-> **⚠️ Important**: This guide uses a **system that supports systemd** (such as a VM or physical server) and **cannot be run on standard Docker containers or kubernetes deployments**. The test scripts use `systemctl` commands and require full systemd service management capabilities that are not available in typical Docker environments.
+> **⚠️ Important**: This guide uses a **system that supports systemd** (such as a VM or physical server) and **cannot be run on standard Docker containers or kubernetes deployments**. The test scripts use `systemctl` commands and require full systemd service management capabilities that are not available in most containerized environments.
 
 ## Prerequisites and Dependencies
 ### System Requirements
